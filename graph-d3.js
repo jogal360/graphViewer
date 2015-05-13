@@ -177,7 +177,7 @@
 			.attr('height', 1);
 
 		patImage.append('image')
-			.attr('xlink:href', function(d) { return d.image })
+			.attr('xlink:href', function(d) { return d.keys.image })
 			.attr('x', '0')
 			.attr('y', '0')
 			.attr('width', 1)
